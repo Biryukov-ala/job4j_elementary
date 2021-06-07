@@ -13,8 +13,16 @@ public class Calculator {
         int fiveMinusTwo = five - two;
         int fourTimeTwo = four * two;
         //вывод в консоль результата
+        System.out.println(onePlusTwo);
         System.out.println(sixDivTwo);
         System.out.println(fiveMinusTwo);
         System.out.println(fourTimeTwo);
+        //замена переменной
+        int size = 10;
+        System.out.println(size);
+        size = 100;
+        System.out.println(size);
+        size = size - 5;
+        System.out.println(size);
     }
 }
