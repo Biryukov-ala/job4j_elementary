@@ -2,9 +2,9 @@ package ru.job4j.condition;
 
 public class TrgArea {
     public static double area(double a, double b, double c) {
-        double rslP = (a + b + c)/2;
-        double rsl = rslP * (rslP - a) * (rslP - b) * (rslP - c);
-        rsl = Math.sqrt(rsl);
+        double rslP = (a + b + c)/2; /*определяем полупериметр*/
+        double rsl = rslP * (rslP - a) * (rslP - b) * (rslP - c);/*выражение под корнем*/
+        rsl = Math.sqrt(rsl);/*площадь треугольника*/
         return rsl;
     }
 
