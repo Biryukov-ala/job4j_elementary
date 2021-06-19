@@ -16,4 +16,5 @@ public class Point {
         double result = Point.distance(10, 16, 13, 21);
         System.out.println("result (x1, y1) to (x2, y2) is " + result);
     }
+
 }
