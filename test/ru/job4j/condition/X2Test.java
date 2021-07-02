@@ -7,7 +7,7 @@ import org.junit.Test;
 public class X2Test {
 
     @Test
-    public void whenA10B0C0X2() {
+    public void whenA10B0C0X2Then40() {
         /* Входные параметры. Их будет 4 штуки */
         int a = 10;
         int b = 0;
@@ -22,7 +22,7 @@ public class X2Test {
         Assert.assertEquals(expected, rsl);
     }
     @Test
-    public void whenA1B1C1X1() {
+    public void whenA1B1C1X1Then3() {
         /* Входные параметры. Их будет 4 штуки */
         int a = 1;
         int b = 1;
@@ -37,7 +37,7 @@ public class X2Test {
         Assert.assertEquals(expected, rsl);
     }
     @Test
-    public void whenA0B1C1X1() {
+    public void whenA0B1C1X1Then2() {
         /* Входные параметры. Их будет 4 штуки */
         int a = 0;
         int b = 1;
@@ -52,7 +52,7 @@ public class X2Test {
         Assert.assertEquals(expected, rsl);
     }
     @Test
-    public void whenA1B1C0X1() {
+    public void whenA1B1C0X1Then2() {
         /* Входные параметры. Их будет 4 штуки */
         int a = 1;
         int b = 1;
@@ -67,7 +67,7 @@ public class X2Test {
         Assert.assertEquals(expected, rsl);
     }
     @Test
-    public void whenA1B1C1X0() {
+    public void whenA1B1C1X0Then1() {
         /* Входные параметры. Их будет 4 штуки */
         int a = 1;
         int b = 1;
