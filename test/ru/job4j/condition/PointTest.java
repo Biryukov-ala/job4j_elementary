@@ -6,7 +6,7 @@ import org.junit.Assert;
 public class PointTest {
 
     @Test
-    public void when10to200then201() {
+    public void when10to200then201dot25() {
         double expected = 201.25;
         int x1 = 10;
         int y1 = 20;
@@ -17,7 +17,7 @@ public class PointTest {
 
     }
     @Test
-    public void when5to10then10() {
+    public void when5to10then10dot049() {
         double expected = 10.049;
         int x1 = 5;
         int y1 = 20;
