@@ -26,8 +26,9 @@ public class PointTest {
         double out = Point.distance(x1, y1, x2, y2);
         Assert.assertEquals(expected, out, 0.001);
     }
+
     @Test
-    public void when7to15then2_() {
+    public void when7to15then2dot236() {
         double expected = 2.236;
         int x1 = 7;
         int y1 = 17;
