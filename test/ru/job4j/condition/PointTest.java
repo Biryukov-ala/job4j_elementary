@@ -14,8 +14,8 @@ public class PointTest {
         int y2 = 200;
         double out = Point.distance(x1, y1, x2, y2);
         Assert.assertEquals(expected, out, 0.01);
-
     }
+
     @Test
     public void when5to10then10dot049() {
         double expected = 10.049;
