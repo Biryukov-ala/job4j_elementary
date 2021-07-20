@@ -7,8 +7,6 @@ public class ChessBoard {
             if (Math.abs(x2 - x1) == Math.abs(y2 - y1)) {
                 rsl = Math.abs(x2 - x1);
             }
-            //тут то же самое написано что и во втором if, только если смещение фигур не одинаковое выводит 0
-            // Math.abs(x2 - x1) == Math.abs(y2 - y1) ? Math.abs(y2 - y1) : 0;
         }
         return rsl;
     }
