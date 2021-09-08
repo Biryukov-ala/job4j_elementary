@@ -9,11 +9,13 @@ public class MathCalculator {
                 + div(first, second)
                 + minus(first, second);
     }
+
     public static double sumOnlyTwo(double first, double second) {
         return div(first, second)
                 + minus(first, second);
     }
-        public static void main(String[] args) {
+
+    public static void main(String[] args) {
         System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20));
         System.out.println("Результат расчета равен: " + sumOnlyTwo(10, 20));
     }

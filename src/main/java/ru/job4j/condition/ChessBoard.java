@@ -10,7 +10,8 @@ public class ChessBoard {
         }
         return rsl;
     }
-       public static void main(String[] args) {
-        System.out.println(way(2,-1,4,1));
+
+    public static void main(String[] args) {
+        System.out.println(way(2, -1, 4, 1));
     }
 }

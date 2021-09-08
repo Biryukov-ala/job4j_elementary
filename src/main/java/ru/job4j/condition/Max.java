@@ -6,8 +6,9 @@ public class Max {
        // int result = left > right ? left : right;
         return left > right ? left : right;
     }
+
     public static void main(String[] args) {
-        int msg = Max.max(21,22);
+        int msg = Max.max(21, 22);
         System.out.println(msg);
     }
 }

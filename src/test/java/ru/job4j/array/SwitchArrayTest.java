@@ -24,6 +24,7 @@ public class SwitchArrayTest {
         int[] expected = {6, 2, 3, 4, 5, 1};
         Assert.assertArrayEquals(expected, result);
     }
+
     @Test
     public void whenSwap0to6minus2() {
         int[] input = {1, 2, 3, 4, 5, 6};

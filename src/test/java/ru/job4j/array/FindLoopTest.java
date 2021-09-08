@@ -13,6 +13,7 @@ public class FindLoopTest {
         int expected = 0;
         Assert.assertEquals(expected, result);
     }
+
     @Test
     public void whenArrayHas9ThenMinus1() {
         int[] data = {5, 4, 3, 2};
@@ -21,6 +22,7 @@ public class FindLoopTest {
         int expected = -1;
         Assert.assertEquals(expected, result);
     }
+
     @Test
     public void whenArrayHasLength5Then0() {
         int[] data = new int[] {5, 10, 3};
