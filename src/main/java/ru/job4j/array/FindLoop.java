@@ -14,13 +14,10 @@ public class FindLoop {
 
     public static int indexOf(int[] data, int el, int start, int finish) {
         int rst = -1; /* если элемента нет в массиве, возвращаем -1. */
-        for (int index = (start - 1); index <= (finish - 1); index++) {
-            int finishFin = finish >= data.length ? (finish - 1) : finish;
-            for (index = start; index <= finishFin; index++) {
-                if (data[index] == el) {
+        for (int index = start; index <= finish; index++) {
+            if (data[index] == el) {
                     rst = index;
                     break;
-                }
             }
         }
         return rst;
