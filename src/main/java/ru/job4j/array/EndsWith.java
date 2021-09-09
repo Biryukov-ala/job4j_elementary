@@ -4,7 +4,7 @@ public class EndsWith {
     public static boolean endsWith(char[] word, char[] post) {
             boolean result = true;
             /* проверить. что массив word имеет последние элементы одинаковые с post */
-            for (int index = 0; index < word.length - 1 - index; index++) {
+            for (int index = 0; index < post.length; index++) {
                 if (word[word.length - 1 - index] != post[post.length - 1 - index]) {
                     result = false;
                     break;
