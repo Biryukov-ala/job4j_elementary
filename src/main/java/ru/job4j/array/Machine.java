@@ -9,10 +9,13 @@ public class Machine {
         int size = 0;
         int delta = money - price;
 //замена for (int i = 0; i < coins.length; i++) на for-each
-            for (int i : coins) {
-                while (delta >= coins[i]) {
-                    delta-=coins[i];
-                    rsl[size++]=coins[i];
+        for (int i = 0; i < coins.length; i++) {
+            int count = 0;
+            while ((count = delta / coins[i]) > 0) {
+                delta = delta - count * coins[i];
+                for (int z = 0; z < count; z++) {
+                    rsl[size++] = coins[i];
+                    }
                 }
             }
             return Arrays.copyOf(rsl, size);
